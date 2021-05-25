@@ -176,6 +176,7 @@ public final class VKPinCodeView: UIView {
         _stack.alignment = .fill
         _stack.axis = .horizontal
         _stack.distribution = .fillEqually
+        _stack.semanticContentAttribute = .forceLeftToRight
         _stack.spacing = spacing
         addSubview(_stack)
     }
